@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+html, body{
+  min-height: 100vh;
+  width: 100%;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+    transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 420ms!important;
+    transition-delay: 0!important;
+}
+
+h1, h2, h3, h5, h6, p {
+  color: var(--text-col-one);
+}
+h4, a, i, svg{
+  color: var(--text-col-two);
+}
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 3rem;
+}
+.hello-p {
+  font-size: 3rem;
+}
+input, textarea {
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 1rem; 
+
+  color: var(--text-col-two);
+  resize: vertical;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+
+.skill-bar-html {
+  width: 90%;
+}
+.skill-bar-css {
+  width: 90%;
+}
+.skill-bar-javaScript {
+  width: 90%;
+}
+.skill-bar-typeScript {
+  width: 80%;
+}
+.skill-bar-angular {
+  width: 80%;
+}
+.skill-bar-react {
+  width: 50%;
+}.skill-bar-express {
+  width: 40%;
+}
+.skill-bar-mongo {
+  width: 30%;
+}
+.skill-bar-c {
+  width: 40%;
+}
+
+.skill-bar-git {
+  width: 50%;
+}
+.skill-bar-responsive {
+  width: 80%;
+}
+.skill-bar-english {
+  width: 90%;
+}
+.skill-bar-german {
+  width: 70%;
+}
+.skill-bar-organize {
+  width: 100%;
+}
+.skill-bar-communication {
+  width: 90%;
+}
+.skill-bar-listening {
+  width: 100%;
+}
+.skill-bar-discipline {
+  width: 100%;
+}
+.skill-bar-patiente {
+  width: 100%;
+}
+.skill-bar-compromise {
+  width: 100%;
+}

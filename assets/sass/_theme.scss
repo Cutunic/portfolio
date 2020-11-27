@@ -1,0 +1,53 @@
+html[data-theme='light'] {
+    background: linear-gradient(135deg, var(--land-col-one), var(--land-col-two) 60%, var(--land-col-two));
+  
+    --bg-col-first: rgb(202, 202, 202);
+    --bg-col-second:  rgb(126, 126, 126);
+    --bg-col-third:  rgb(185, 185, 185);
+  
+    --land-col-one: rgb(201, 201, 201);
+    --land-col-two: rgb(255, 255, 255); //rgb(165, 165, 165)
+
+    --text-col-one: rgb(0, 0, 0);
+    --text-col-two:  rgb(26, 26, 26);
+    --text-col-three: rgb(0, 0, 0);
+  
+    --helper-col-one:  rgb(233, 233, 233);
+    --helper-col-two:  rgb(216, 216, 216);
+    --helper-col-three:  rgb(196, 196, 196);
+    --helper-col-four: rgb(255,255,255);
+
+    --action-col-one: rgb(133, 172, 97);
+    --action-col-two: rgb(117, 172, 66);
+    --action-col-three: rgb(32, 53, 12);
+  
+    --land-img-brig: 140%;
+    --land-img-cont: 30%;
+  }
+  
+  html[data-theme='dark'] {
+    background: linear-gradient(135deg, var(--land-col-one) 0%, var(--land-col-two) 60%, var(--land-col-two));
+  
+    --bg-col-first: rgb(15, 15, 15);
+    --bg-col-second:  rgb(30, 30, 30);
+    --bg-col-third:  rgb(7, 7, 7);
+  
+    --land-col-one: rgb(30,30,30);
+    --land-col-two: rgba(0,0,0,1);
+
+    --text-col-one: rgb(255, 255, 255);
+    --text-col-two: rgb(200,200,200);
+    --text-col-three: rgb(0, 0, 0);
+
+    --helper-col-one:  rgb(15, 15, 15);
+    --helper-col-two:  rgb(32, 32, 32);
+    --helper-col-three: rgb(37, 37, 37);
+    --helper-col-four: rgb(255,255,255);
+
+    --action-col-one: rgb(254,197,118);
+    --action-col-two: rgb(255,148,66);
+    --action-col-three: rgb(42, 26, 13);
+  
+    --land-img-brig: 50%;
+    --land-img-cont: 100%;
+  }

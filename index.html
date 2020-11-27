@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="vendors/font-awesome/font-awesome.min.css">
+    <script defer src="vendors/font-awesome/js/all.min.js"></script>
+
+    <script src="./components/homeLandComp.js"></script>
+    <script src="./components/aboutLandComp.js"></script>
+    
+    <script src="./components/themeComp.js"></script>
+    <script src="./components/menuComp.js"></script>
+    
+
+    <title>Portfolio</title>
+</head>
+
+
+
+<body data-page='landing'>
+
+    <header>
+        
+    </header>
+
+    <main>
+         <!-- Landing page... full screen-->
+         <div class="landing">
+
+            <!-- Home container -->     <!-- ovo ce biti iframe na home.html-->
+            <div id="home-box-container" class="home-box-container">
+
+            </div>
+
+            <!-- About container-->      <!-- on mobile screen it will be diplayed none-->
+            <div id="about-box-container" class="about-box-container display-block">
+
+            </div>
+            
+            <!-- Shapes-->
+            <div class="circle circle-one">
+
+            </div>
+            <div class="circle circle-two">
+
+            </div>
+            <div class="l-shape">
+                <div class="f-square">
+
+                </div>
+                <div class="s-square">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div id="mobile-screen-container" class="mobile-screen-container">
+
+        <div id="mobile-menu-container" class="mobile-menu-container">
+        
+            <h3>Ćutunić</h3>
+            <div class="burger-icon">
+                <input type="checkbox" class="menu-click" onchange="handleDropdownBurger(event)">
+                <div class="navico"></div>
+            </div>
+            <div id="dropdown-container" class="dropdown-container display-none">
+                <div class="nav-links">
+                    <ul>
+                        <li><a onclick="onMenuItemClick('index', 'index', event)"><div class="icon-nav-box"><i class="fas fa-home"></i></div>Home</a></li>
+                        <li><a onclick="onMenuItemClick('main', 'about', event)"><div class="icon-nav-box"><i class="fas fa-user-alt"></i></div>About</a></li> 
+                        <li><a onclick="onMenuItemClick('main', 'resume', event)"><div class="icon-nav-box"><i class="far fa-file-alt"></i></div>Resume</a></li>
+                        <li><a onclick="onMenuItemClick('main', 'services', event)"><div class="icon-nav-box"><i class="fas fa-tools"></i></div>Services</a></li>
+                        <li><a onclick="onMenuItemClick('main', 'portfolio', event)"><div class="icon-nav-box"><i class="fas fa-project-diagram"></i></div>Portfolio</a></li>
+                        <li><a onclick="onMenuItemClick('main', 'testimonials', event)"><div class="icon-nav-box"><i class="fas fa-pencil-alt"></i></div>Testimonials</a></li>
+                        <li><a onclick="onMenuItemClick('main', 'contact', event)"><div class="icon-nav-box"><i class="far fa-envelope"></i></div>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul>
+                        <li><a onclick="onMenuItemClick('main', 'contact', event)"><i class="far fa-envelope"></i></a></li>
+                        <li><a href="https://github.com/Cutunic" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://linkedin.com/in/matej-ćutunić-b92b011b3" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.upwork.com/freelancers/~01960030b530c0043b" target="_blank"><i class="fas fa-laptop-house"></i></a></li>
+        
+                    </ul>
+                </div>
+        
+                <div class="copyright">
+                    <p>@ 2020 Cutunic</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="mobile-box-container" class="mobile-box-container">
+            <div class="img-container">
+                <img src="./assets/img/laptop.jpg" alt="Profile Picture">
+            </div>
+            <div class="mobile-about-content">
+                <p class="hello-p">Hello, I'm</p>
+                <h1>Ćutunić Matej</h1>
+                <h2>Frontend Developer</h2>
+                
+                <!-- div is displayed only on mobile screen -->
+                <div class="home-hire-btn-container">
+                    <div class="cv-btn-box">
+                        <a href="https://drive.google.com/file/d/1dlZAyGpfgM4ZC4JyIge310Ui5gtu71Sr/view?usp=sharing" target="_blank"><button class="cv-btn">Download CV</button></a>
+                    </div>
+                    <div class="hire-btn-box">
+                        <button class="hire-btn" onclick="onMenuItemClick('main', 'contact', event)">Hire Me</button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <!-- Shapes-->
+        <div class="circle circle-one">
+
+        </div>
+        <div class="circle circle-two">
+
+        </div>
+        <div class="l-shape">
+            <div class="f-square">
+
+            </div>
+            <div class="s-square">
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+    <script src="./assets/js/landing.js"></script>
+    <script src="./assets/js/theme.js"></script>
+    <script  src="./assets/js/main.js"></script>
+</html>
